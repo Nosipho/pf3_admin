@@ -1,0 +1,15 @@
+div.container
+{
+    background-color:#d3d3d3;
+    border-bottom:2px solid black;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    border-radius:1px;
+}
+.btn
+{
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+
+}
