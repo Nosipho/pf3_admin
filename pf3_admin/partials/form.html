@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="row">
+        <div class="span6 offset3">
+            <div class="page-header"><h2 style="text-align: center">FILL IN ALL REQUIRED FIELDS</h2></div>
+
+            <form name="myForm" role="form" class="form-horizontal row">
+                <div class="col-xs-3">
+                    <div class="form-group">
+                        <label  for="os_group_id" class="col-sm-6 control-label">Work Group ID &nbsp &nbsp</label>
+                        <div class="col-sm-6">
+                            <input style="border-color:black; background-color:#d3d3d3" type="number" class="form-control" id="os_group_id" ng-model="os_group_id" readonly="true">
+                        </div>
+                    </div>
+                </div><br/>
+                <div class="col-xs-3">
+                    <div class="form-group">
+                        <label for="os_group_name" class="col-sm-6 control-label" >Work Group Name &nbsp &nbsp</label>
+                        <div class="col-sm-6">
+                            <input style="border-color:black; background-color: #d3d3d3" id="os_group_name" type="text" class="form-control" ng-model="os_group_name"  readonly="true" >
+                        </div>
+                    </div>
+                </div><br/>
+                <div class="col-xs-6">
+                    <div class="form-group" ng-class="myForm.dropbox_root.$dirty && myForm.dropbox_root.$invalid">
+                        <label for="dropbox_root" class="col-sm-4 control-label">Dropbox Root &nbsp &nbsp</label>
+                        <div class="col-sm-8">
+                            <input type="text" name="dropbox_root" id="dropbox_root" class="form-control" ng-model="dropbox_root" required><span style="color:red">*</span></div><br/>
+
+                    </div>
+                </div>
+                <br/>
+                <div class="col-xs-6">
+                    <div class="form-group" ng-class="myForm.preflight_profile.$dirty && myForm.preflight_profile.$invalid"></div>
+                    <label for="preflight_profile" class="col-sm-4 control-label">Preflight Profile &nbsp &nbsp</label>
+                    <div class="col-sm-8">
+                        <input type="text" name="preflight_profile" id="preflight_profile" class="form-control" ng-model="preflight_profile" required>
+                        <span style="color:red">*</span></div>
+                    <br/>
+
+                    <div class="col-xs-6">
+                        <div class="form-group" ng-class="myForm.account_manager_emails.$dirty && myForm.account_manager_emails.$invalid">
+                            <label for ="account_manager_emails" class="col-sm-4 control-label">Account Manager Email &nbsp &nbsp</label>
+                            <div class="col-sm-8">
+                                <input type="email" name="account_manager_emails" id="account_manager_emails" class="form-control" ng-model="account_manager_emails" required>
+
+                                <span style="color:red">*</span><br/>
+
+                            </div><br/>
+                            <p align="center" ><button class="btn btn-default" type="submit" ng-model="submit">Save</button></p>
+                        </div></div>
+                </div>
+            </form> </div>
+    </div>
+</div>
