@@ -1,0 +1,311 @@
+var theWorkgroup = {
+   "os_groupid": 500,
+   "os_userid": 500,
+   "last_check": "20140901084846",
+   "os_group_name": "printflow",
+   "id": 5010595,
+   "preflight_profile": "/opt/printflow2/callas/myprofiles/kishan_profile_10.kfpx",
+   "serial_number": "PF2001",
+   "class_parent": "None",
+   "os_user_name": "printflow",
+   "dropbox_root": "/home/printflow/Dropbox/pf_point",
+   "class": "workgroup",
+   "dam_site": "point-hub_point",
+   "clients": {
+      "Meridian Wine Merchants": {
+         "dam_category_id": "",
+         "project_notify_emails": [],
+         "noosh_nge_enabled": true,
+         "default_dropbox_folder": "Meridian Team",
+         "file_notify_emails": [
+            "printflow@printoutsource.com",
+            "christo@meridianwines.co.za",
+            "Chantelle@meridianwines.co.za",
+            "taryn@meridianwines.co.za",
+            "Morena@meridianwines.co.za",
+            "alecia@meridianwines.co.za"
+         ],
+         "users": {
+            "1001": {
+               "first_name": "ashish",
+               "full_name": "Ashish Singh",
+               "id": 1001,
+               "last_name": "singh",
+               "email": "ashish@printoutsource.com",
+               "dropbox_folder": "ashish singh"
+            }
+         },
+         "id": "",
+         "account_manager_emails": [
+            "ashish@printoutsource.com",
+            "printflow@printoutsource.com"
+         ],
+         "buyer_emails": [],
+         "dam_site": "point-hub_point",
+         "name": "Meridian Wine Merchants",
+         "account_managers": [
+            "1001"
+         ]
+      },
+      "RCI Group Africa": {
+         "dam_category_id": "",
+         "dam_site": "point-hub_point",
+         "project_notify_emails": [],
+         "account_manager_emails": [
+            "ashish@printoutsource.com",
+            "printflow@printoutsource.com"
+         ],
+         "users": {
+            "1002": {
+               "first_name": "Jeanette",
+               "noosh_username": "tsejane",
+               "full_name": "Jeanette Lethae",
+               "id": 1002,
+               "last_name": "Lethae",
+               "email": "jeanette@printoutsource.com",
+               "dropbox_folder": "Jeanette Lethae"
+            },
+            "1003": {
+               "first_name": "Samantha",
+               "noosh_username": "samellis",
+               "full_name": "Samantha Ellis",
+               "id": 1003,
+               "last_name": "Ellis",
+               "email": "sam@printoutsource.com",
+               "dropbox_folder": "Samantha Ellis"
+            },
+            "1001": {
+               "first_name": "ashish",
+               "noosh_username": "ashishsingh",
+               "full_name": "Ashish Singh",
+               "id": 1001,
+               "last_name": "singh",
+               "email": "ashish@printoutsource.com",
+               "dropbox_folder": "ashish singh"
+            }
+         },
+         "file_notify_emails": [
+            "ashish@printoutsource.com",
+            "jeanette@printoutsource.com",
+            "sam@printoutsource.com",
+            "printflow@printoutsource.com"
+         ],
+         "noosh_nge_enabled": false,
+         "name": "RCI Group Africa",
+         "account_managers": [
+            "1001"
+         ],
+         "buyer_emails": [],
+         "id": ""
+      },
+      "Monte Casino": {
+         "dam_category_id": "",
+         "dam_site": "point-hub_point",
+         "project_notify_emails": [
+            "ashish@printoutsource.com",
+            "printflow@printoutsource.com"
+         ],
+         "account_manager_emails": [
+            "ashish@printoutsource.com",
+            "printflow@printoutsource.com"
+         ],
+         "users": {
+            "1002": {
+               "first_name": "Jeanette",
+               "noosh_username": "tsejane",
+               "full_name": "Jeanette Lethae",
+               "id": 1002,
+               "last_name": "Lethae",
+               "email": "jeanette@printoutsource.com",
+               "dropbox_folder": "Jeanette Lethae"
+            },
+            "1003": {
+               "first_name": "Samantha",
+               "noosh_username": "samellis",
+               "full_name": "Samantha Ellis",
+               "id": 1003,
+               "last_name": "Ellis",
+               "email": "sam@printoutsource.com",
+               "dropbox_folder": "Samantha Ellis"
+            },
+            "1001": {
+               "first_name": "ashish",
+               "noosh_username": "ashishsingh",
+               "full_name": "Ashish Singh",
+               "id": 1001,
+               "last_name": "singh",
+               "email": "ashish@printoutsource.com",
+               "dropbox_folder": "ashish singh"
+            }
+         },
+         "file_notify_emails": [
+            "ashish@printoutsource.com",
+            "jeanette@printoutsource.com",
+            "sam@printoutsource.com",
+            "printflow@printoutsource.com"
+         ],
+         "noosh_nge_enabled": false,
+         "name": "Monte Casino",
+         "account_managers": [
+            "1001"
+         ],
+         "buyer_emails": [],
+         "id": ""
+      },
+      "Regent Life Assurance Company Limited": {
+         "dam_category_id": "",
+         "dam_site": "point-hub_point",
+         "project_notify_emails": [],
+         "account_manager_emails": [
+            "ashish@printoutsource.com",
+            "printflow@printoutsource.com"
+         ],
+         "users": {
+            "1002": {
+               "first_name": "Jeanette",
+               "noosh_username": "tsejane",
+               "full_name": "Jeanette Lethae",
+               "id": 1002,
+               "last_name": "Lethae",
+               "email": "jeanette@printoutsource.com",
+               "dropbox_folder": "Jeanette Lethae"
+            },
+            "1003": {
+               "first_name": "Samantha",
+               "noosh_username": "samellis",
+               "full_name": "Samantha Ellis",
+               "id": 1003,
+               "last_name": "Ellis",
+               "email": "sam@printoutsource.com",
+               "dropbox_folder": "Samantha Ellis"
+            },
+            "1001": {
+               "first_name": "ashish",
+               "noosh_username": "ashishsingh",
+               "full_name": "Ashish Singh",
+               "id": 1001,
+               "last_name": "singh",
+               "email": "ashish@printoutsource.com",
+               "dropbox_folder": "ashish singh"
+            }
+         },
+         "file_notify_emails": [
+            "ashish@printoutsource.com",
+            "jeanette@printoutsource.com",
+            "sam@printoutsource.com",
+            "printflow@printoutsource.com"
+         ],
+         "noosh_nge_enabled": false,
+         "name": "Regent Life Assurance Company Limited",
+         "account_managers": [
+            "1001"
+         ],
+         "buyer_emails": [],
+         "id": ""
+      },
+      "Regent Insurance Company Limited": {
+         "dam_category_id": "",
+         "dam_site": "point-hub_point",
+         "project_notify_emails": [],
+         "account_manager_emails": [
+            "ashish@printoutsource.com",
+            "printflow@printoutsource.com"
+         ],
+         "users": {
+            "1002": {
+               "first_name": "Jeanette",
+               "noosh_username": "tsejane",
+               "full_name": "Jeanette Lethae",
+               "id": 1002,
+               "last_name": "Lethae",
+               "email": "jeanette@printoutsource.com",
+               "dropbox_folder": "Jeanette Lethae"
+            },
+            "1003": {
+               "first_name": "Samantha",
+               "noosh_username": "samellis",
+               "full_name": "Samantha Ellis",
+               "id": 1003,
+               "last_name": "Ellis",
+               "email": "sam@printoutsource.com",
+               "dropbox_folder": "Samantha Ellis"
+            },
+            "1001": {
+               "first_name": "ashish",
+               "noosh_username": "ashishsingh",
+               "full_name": "Ashish Singh",
+               "id": 1001,
+               "last_name": "singh",
+               "email": "ashish@printoutsource.com",
+               "dropbox_folder": "ashish singh"
+            }
+         },
+         "file_notify_emails": [
+            "ashish@printoutsource.com",
+            "jeanette@printoutsource.com",
+            "sam@printoutsource.com",
+            "printflow@printoutsource.com"
+         ],
+         "noosh_nge_enabled": false,
+         "name": "Regent Insurance Company Limited",
+         "account_managers": [
+            "1001"
+         ],
+         "buyer_emails": [],
+         "id": ""
+      },
+      "Suncoast Casino": {
+         "dam_category_id": "",
+         "dam_site": "point-hub_point",
+         "project_notify_emails": [],
+         "account_manager_emails": [
+            "ashish@printoutsource.com",
+            "printflow@printoutsource.com"
+         ],
+         "users": {
+            "1002": {
+               "first_name": "Jeanette",
+               "noosh_username": "tsejane",
+               "full_name": "Jeanette Lethae",
+               "id": 1002,
+               "last_name": "Lethae",
+               "email": "jeanette@printoutsource.com",
+               "dropbox_folder": "Jeanette Lethae"
+            },
+            "1003": {
+               "first_name": "Samantha",
+               "noosh_username": "samellis",
+               "full_name": "Samantha Ellis",
+               "id": 1003,
+               "last_name": "Ellis",
+               "email": "sam@printoutsource.com",
+               "dropbox_folder": "Samantha Ellis"
+            },
+            "1001": {
+               "first_name": "ashish",
+               "noosh_username": "ashishsingh",
+               "full_name": "Ashish Singh",
+               "id": 1001,
+               "last_name": "singh",
+               "email": "ashish@printoutsource.com",
+               "dropbox_folder": "ashish singh"
+            }
+         },
+         "file_notify_emails": [
+            "ashish@printoutsource.com",
+            "jeanette@printoutsource.com",
+            "sam@printoutsource.com",
+            "printflow@printoutsource.com"
+         ],
+         "noosh_nge_enabled": false,
+         "name": "Suncoast Casino",
+         "account_managers": [
+            "1001"
+         ],
+         "buyer_emails": [],
+         "id": ""
+      }
+   },
+   "name": "Point",
+   "id_parent": 0
+}
