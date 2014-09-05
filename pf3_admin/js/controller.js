@@ -1,7 +1,6 @@
- var printFlow = angular.module("printFlow3", []);
+ var pf3 = angular.module("pf3Admin", []);
 
- printFlow.controller("PrintFlowCtrl", ['$scope','$http', function($scope, $http)
-    {
+ pf3.controller("pf3Controllers", ['$scope','$http', function($scope, $http) {
         $http.get('js/5010595.json').success (function(data){
             $scope.workGroup = data;
         });
