@@ -1,0 +1,24 @@
+<div class="container">
+
+    <div class="col-xs-6">
+        <div class="form-group" ng-class="myForm.username.$dirty && myForm.username.$invalid"></div>
+        <label for="username" class="col-sm-4 control-label">Preflight Profile &nbsp &nbsp</label>
+        <div class="col-sm-8">
+            <input type="text" name="username" id="username" class="form-control" ng-model="username" required>
+            <span style="color:red">*</span></div>
+        <br/>
+
+        <div class="col-xs-6">
+            <div class="form-group" ng-class="myForm.password.$dirty && myForm.password.$invalid">>
+                <label for ="password" class="col-sm-4 control-label">Account Manager Email &nbsp &nbsp</label>
+                <div class="col-sm-8">
+                    <input type="email" name="password" id="password" class="form-control" ng-model="password" required>
+
+                    <span style="color:red">*</span><br/>
+
+                </div><br/>
+                <p align="center" ><button class="btn btn-primary" type="submit" ng-model="submit">Login</button></p>
+            </div></div>
+    </div>
+
+</div>
